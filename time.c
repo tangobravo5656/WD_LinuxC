@@ -1,6 +1,6 @@
 #include <func.h>
 
-void *threadfunc(void *p)
+void *threadfunc(void *pargs)
 {
 	time_t t=time(NULL);
 	struct tm buf;
